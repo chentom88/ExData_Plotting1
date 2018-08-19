@@ -1,5 +1,7 @@
 source("common.R")
 
+# This will download the file if it does not
+# yet exists. Please see common.R
 data <- get_data()
 
 par(mfrow=c(2,2), mgp=c(2.5,1,0), ps=8)

@@ -1,5 +1,7 @@
 source("common.R")
 
+# This will download the file if it does not
+# yet exists. Please see common.R
 data <- get_data()
 
 with(data, plot(datetime, Sub_metering_1, type="l", ylab="Energy sub metering", xlab=""))
